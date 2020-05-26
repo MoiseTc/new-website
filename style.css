@@ -1,1 +1,142 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.blue {
+  height: 1rem;
+  background-color: blue;
+}
+
+header {
+  background-image: url(images/banner.jpg);
+  background-size: cover;
+  height: 70vh;
+  background-attachment: fixed;
+}
+
+header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+
+header .nav .logo {
+  margin-left: .5rem;
+}
+
+header .nav a {
+  text-decoration: none;
+  color: white;
+}
+
+header .nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0rem;
+  margin-left: auto;
+}
+
+header .nav ul li {
+  margin-right: 2rem;
+}
+
+header .landing {
+  text-align: center;
+  padding: 2rem;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+header .landing h2 {
+  margin-bottom: 2rem;
+}
+
+main {
+  background-color: red;
+}
+
+main ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem;
+}
+
+main ul li {
+  margin: 2rem;
+  padding: 2rem;
+}
+
+main ul li h2 {
+  font-size: 2rem;
+}
+
+main ul li p {
+  font-weight: 300;
+}
+
+main ul li button {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: .7rem;
+  background-color: blue;
+  border: none;
+}
+
+.center {
+  border-style: solid;
+  border-width: .1rem;
+  border-color: yellow;
+  border-top: none;
+  border-bottom: none;
+}
+
+.page2 {
+  background-color: yellow;
+}
+
+.page2 .part1 {
+  text-align: center;
+  color: red;
+}
+
+.page2 .part1 h1 {
+  padding: 1rem;
+}
+
+.page2 .part1 p {
+  font-size: .7rem;
+}
+
+.page2 .part2 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2.5rem;
+  list-style: none;
+}
+
+.page2 .part2 ul li {
+  padding: 3.2rem;
+  border-style: solid;
+  border-width: .1rem;
+  border-color: #3f28c7;
+  margin: 1.3rem;
+  text-align: center;
+}
+
+.page2 .part2 ul li img {
+  border-radius: 60%;
+}
+
+.page2 .part2 ul li h3 {
+  padding: 1rem;
+}
+/*# sourceMappingURL=style.css.map */
